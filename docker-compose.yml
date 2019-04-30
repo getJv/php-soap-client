@@ -1,0 +1,10 @@
+version: '3'
+services:
+  php:
+    image: getjv/php7.2
+    ports:
+      - "80:80"
+    volumes:
+      - C:\git\php-soap:/var/www/html
+
+     
